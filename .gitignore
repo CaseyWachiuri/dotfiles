@@ -1,0 +1,9 @@
+tags
+test.sh
+.luarc.json
+nvim
+bash
+alacritty
+
+spell/
+lazy-lock.json
