@@ -16,4 +16,9 @@ makepkg -si
 yay git neovim curl tmux ghostty
 
 # setup configs using dotfiles
+ln -s "~/.dotfiles/ghostty/config.ghostty" "~/.config/ghostty/config.ghostty"
+ln -s "~/.dotfiles/tmux/.tmux.conf" "~/.tmux.conf"
 
+# special config for setting up fonts in root protected usr/share/fonts directory
+sudo ln -sfn "~/.dotfiles/nerdfonts/" "/usr/share/fonts/nerdfonts"
+sudo fc-cache -f -v
