@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+cd ~
+
 # configure it to check the OS and update accordingly
 sudo pacman -Syu
 
@@ -16,10 +18,9 @@ makepkg -si
 # git neovim curl tmux ghostty
 
 # Just for fun, ladybird install
-git clone https://github.com/LadyBirdBrowser/ladybird.git
-cd ladybird
-touch ./ladybird.sh
 echo "./Meta/ladybird.py run" >> ./ladybird.sh
+git clone https://github.com/LadyBirdBrowser/ladybird.git
+cd  ~/ladybird
 chmod u+x ./ladybird.sh
 ./Meta/ladybird.py run
 
