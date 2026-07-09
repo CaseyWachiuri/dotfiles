@@ -12,6 +12,17 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
+# A list of packages I require:
+# git neovim curl tmux ghostty
+
+# Just for fun, ladybird install
+git clone https://github.com/LadyBirdBrowser/ladybird.git
+cd ladybird
+touch ./ladybird.sh
+echo "./Meta/ladybird.py run" >> ./ladybird.sh
+chmod u+x ./ladybird.sh
+./Meta/ladybird.py run
+
 # add packages
 yay git neovim curl tmux ghostty
 
