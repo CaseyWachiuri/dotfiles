@@ -1,8 +1,8 @@
 # ~/.config/ghostty/config.ghostty
 
-font-family = JetBrains Mono
+font-family = UbuntuMono Nerd Font
 font-style = Regular
-font-size = 14
+font-size = 16
 
 # background-color = ffffff
 background-opacity = 1.0
