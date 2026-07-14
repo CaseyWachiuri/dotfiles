@@ -1,1 +1,1 @@
-A simple dotfile for my configs. That is all. As you were.
+A simple dotfile for my configs. That is all. As you were. (Work in progress)
